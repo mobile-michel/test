@@ -12,8 +12,8 @@ public_folder: "/assets/images" # The src attribute for uploaded media will begi
 local_backend: true
 # publish_mode: editorial_workflow
 collections:
-  - label: "Products"
-    name: "products"
+  - label: "Pages"
+    name: "pages"
     folder: "src"
     create: true
     editor:
