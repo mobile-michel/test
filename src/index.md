@@ -1,6 +1,7 @@
 ---
-title: My first page
+title: My first page to this test
 layout: base
+tags: primary
 ---
 The first paragraph.
 
