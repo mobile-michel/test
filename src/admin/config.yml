@@ -26,4 +26,5 @@ collections:
         label: "tags"
         name: "tags"
         create: true
+        required: false
         options: ["primary"]
