@@ -14,12 +14,13 @@
 </head>
 
 <body>
-    {% include 'partials/_nav.html' %}
+    {% include 'nav.html' %}
     <main class="container">
         <h1>{{ title }}</h1>
+        <p>{{description}}</p>
         {{ content }}
     </main>
-    {% include 'partials/_footer.html' %}
+    {% include 'footer.html' %}
 </body>
 
 </html>

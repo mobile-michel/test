@@ -1,8 +1,8 @@
 {
-    "name": "Eleventy, Liquid & Pico",
+    "name": "Eleventy Sandbox",
     "url": "",
     "authorName": "Michel Maillard",
     "authorUrl": "https://michelmaillard.ch/",
-    "description": "Eleventy, Liquid, & Pico for testing Pico examples",
+    "description": "Eleventy, Liquid, & Pico for sandbox",
     "favicon": "https://11ty.recipes/images/meta/favicon.svg"
    }

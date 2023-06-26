@@ -1,0 +1,15 @@
+---
+pagination:
+    data: globalDataSet.myData
+    size: 1
+permalink: "different/{{ pagination.items[0] | slugify }}/index.html"
+---
+<ol>
+    {%- for item in pagination.items %}
+    <li>{{ item }}</li>
+    {% endfor -%}
+</ol>
+
+    {%- for item in globalDataSet.myData %}
+    <a href="/different/{{item}}">{{ item }}</a> -
+    {% endfor -%}

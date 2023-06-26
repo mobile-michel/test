@@ -1,0 +1,34 @@
+[
+    {
+        "category": "électrique",
+        "marque": "Dacia",
+        "modele": "Spring Electric 45",
+        "classe": "Tout-terrain/SUV",
+        "transmission": "traction",
+        "prix": "19900"
+    },
+    {
+        "category": "électrique",
+        "marque": "Dacia",
+        "modele": "Spring Electric 65",
+        "classe": "Tout-terrain/SUV",
+        "transmission": "traction",
+        "prix": "20790"
+    },
+    {
+        "category": "électrique",
+        "marque": "Mini",
+        "modele": "Cooper SE",
+        "classe": "Petite voiture",
+        "transmission": "traction",
+        "prix": "38500"
+    },
+    {
+        "category": "électrique",
+        "marque": "Fiat",
+        "modele": "500e 24kWh",
+        "classe": "mini",
+        "transmission": "traction",
+        "prix": "30490"
+    }
+]
