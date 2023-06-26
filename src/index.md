@@ -1,9 +1,6 @@
 ---
-title: Éléments d'Eleventy
-description: Liste de tous les éléments constituant Eleventy, classés par catégories.
+title: My first page
 layout: base
-tags: testTag
-date: 2023-06-25
 ---
 
 ## Frontmatter
@@ -111,7 +108,6 @@ date: 2023-06-25
 
 ## Others
 
-- URL.searchParams
-- event.queryStringParameters
-- reversed
-- forloop.index
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus sunt nam commodi dolore corporis corrupti soluta quae autem, animi quia vel repellendus fugit ea ipsa porro suscipit minima modi minus!
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut labore, exercitationem dolore suscipit eius atque fuga cumque eligendi perferendis veniam totam, quam excepturi? Obcaecati nostrum earum excepturi natus quae nemo!
