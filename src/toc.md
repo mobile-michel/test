@@ -2,7 +2,7 @@
 title: Table des matières
 layout: base
 pagination:
-    data: elements
+    data: element
     size: 1
 ---
 {% for item in pagination.items %}

@@ -1,0 +1,18 @@
+---
+title: Élément sélectionné
+layout: base
+pagination:
+  data: element
+  size: 1
+  alias: detail
+permalink: 'elements/{{ detail.name | slug }}/index.html'
+---
+
+<h2>{{ detail.name }}</h2>
+<ul>
+  <li><strong>description</strong>: {{ detail.description }}</li>
+  <li><strong>options</strong>: {{ detail.options }}</li>
+  <li><strong>catégorie</strong>: {{ detail.category }}</li>
+  <li><strong><a href="https://www.11ty.dev/docs/{{ detail.doc }}">documentation</a></strong> sur le site d'Eleventy</li>
+</ul>
+<p><a href="/elements/">Retour à la liste des éléments</a></p>

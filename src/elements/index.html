@@ -1,0 +1,12 @@
+---
+title: Éléments
+description: Liste des éléments d'Eleventy
+layout: base
+tags: primary
+---
+
+<ul>
+  {%- for i in element %}
+  <li><a href="/elements/{{ i.category | slugify }}">{{ i.name }}</a>: {{ i.description }}</li>
+  {% endfor -%}
+</ul>
