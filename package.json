@@ -1,16 +1,18 @@
 {
-  "name": "test",
+  "name": "eleventy-sandbox",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Eleventy elements database to sandbox",
+  "main": "eleventy.config.js",
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy"
+    "build": "eleventy",
+    "debug": "DEBUG=Eleventy* eleventy"
   },
   "keywords": [],
-  "author": "",
+  "author": "Michel Maillard",
   "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^2.0.1",
+    "node-fetch": "^3.3.1"
   }
 }

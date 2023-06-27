@@ -13,5 +13,6 @@ module.exports = function (eleventyConfig) {
       input: "src",
       layouts: "_layouts"
     },
+    templateFormats: ["html", "md", "liquid"]
   };
 };

@@ -3,7 +3,7 @@
         "category": "électrique",
         "marque": "Dacia",
         "modele": "Spring Electric 45",
-        "classe": "Tout-terrain/SUV",
+        "classe": "tout-terrain/SUV",
         "transmission": "traction",
         "prix": "19900"
     },
@@ -11,7 +11,7 @@
         "category": "électrique",
         "marque": "Dacia",
         "modele": "Spring Electric 65",
-        "classe": "Tout-terrain/SUV",
+        "classe": "tout-terrain/SUV",
         "transmission": "traction",
         "prix": "20790"
     },
@@ -19,7 +19,7 @@
         "category": "électrique",
         "marque": "Mini",
         "modele": "Cooper SE",
-        "classe": "Petite voiture",
+        "classe": "petite voiture",
         "transmission": "traction",
         "prix": "38500"
     },
@@ -30,5 +30,21 @@
         "classe": "mini",
         "transmission": "traction",
         "prix": "30490"
+    },
+    {
+        "category": "électrique",
+        "marque": "Hyundai",
+        "modele": "Kona Electric 39kWh",
+        "classe": "tout-terrain/SUV",
+        "transmission": "traction",
+        "prix": "39300"
+    },
+    {
+        "category": "électrique",
+        "marque": "Peugeot",
+        "modele": "e-208 GT",
+        "classe": "petite voiture",
+        "transmission": "traction",
+        "prix": "40200"
     }
 ]

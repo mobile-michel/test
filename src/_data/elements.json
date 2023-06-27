@@ -1,0 +1,26 @@
+[
+    {
+        "name": "layout",
+        "category": "frontmatter",
+        "description": "Eleventy Layouts are special templates that can be used to wrap other content.",
+        "doc": "layouts"
+    },
+    {
+        "name": "collection",
+        "category": "frontmatter",
+        "description": "A collection allows you to group content in interesting ways",
+        "doc": "collections"
+    },
+    {
+        "name": "pagination",
+        "category": "frontmatter",
+        "description": "Pagination allows you to iterate over a data set and create multiple files from a single template",
+        "doc": "pagination"
+    },
+    {
+        "name": "permalinks",
+        "category": "frontmatter",
+        "description": "You can customize the default location of templates to the output directory using Eleventy’s permalinks feature",
+        "doc": "permalinks"
+    }
+]

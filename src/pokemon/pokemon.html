@@ -1,0 +1,12 @@
+---
+title:
+layout: base
+pagination:
+  data: pokemon
+  size: 1
+  alias: detail
+permalink: 'pokemon/{{ detail.name | slug }}/index.html'
+---
+
+<h1>{{ detail.name }}</h1>
+<p>{{ detail.dexno }}</p>

@@ -1,0 +1,17 @@
+---
+title: Voiture sélectionnée
+layout: base
+pagination:
+  data: voiture
+  size: 1
+  alias: detail
+permalink: 'voiture/{{ detail.marque | slug }}-{{ detail.modele | slug }}/index.html'
+---
+
+<h2>{{ detail.marque }} {{ detail.modele }}</h2>
+<ul>
+  <li>classe: {{ detail.classe }}</li>
+  <li>transmission: {{ detail.transmission }}</li>
+  <li>prix: CHF {{ detail.prix }}</li>
+</ul>
+<p><a href="/voiture/">Retour à la liste des voitures</a></p>

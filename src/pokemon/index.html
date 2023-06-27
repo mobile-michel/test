@@ -1,0 +1,11 @@
+---
+title: Pokemon
+layout: base
+tags: primary
+---
+
+<ul>
+  {%- for species in pokemon %}
+  <li><a href="{{ species.name | slugify }}">{{ species.name }}</a></li>
+  {% endfor -%}
+</ul>
