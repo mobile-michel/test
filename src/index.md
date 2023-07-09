@@ -1,5 +1,5 @@
 ---
-title: My first page
+title: Eleventy elements
 layout: base
 ---
 
@@ -47,6 +47,7 @@ layout: base
 - **data.tags**: {{tags}}
 - **data.date**: {{date}}
 - **content**: {{content}}
+- **collections.all**
 
 ## Pagination
 - **pagination.items**
@@ -63,11 +64,16 @@ layout: base
 - **pagination.page.first**
 - **pagination.page.last**
 
-## Filters
+## Universal filters
 - url
+- slug
 - slugify
 - log (console.log)
-- get*CollectionItem
+- serverlessUrl
+- getCollectionItemIndex
+- getCollectionItem
+- getPreviousCollectionItem
+- getNextCollectionItem
 
 ## Eleventy variables
 
